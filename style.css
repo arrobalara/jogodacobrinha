@@ -1,0 +1,35 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+body {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 1rem;
+  line-height: 10px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#snake {
+  box-shadow: 12px 12px 12px -4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+#pontuacao {
+  display: flex;
+  width: 512px;
+  justify-content: space-between;
+}
